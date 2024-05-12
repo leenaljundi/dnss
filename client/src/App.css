@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-container{
+
+  background-image: url("https://media.licdn.com/dms/image/C4D12AQGxDBHrPAMWUg/article-cover_image-shrink_720_1280/0/1635429277968?e=2147483647&v=beta&t=MgoY3usFC8e2dHjygKDaB3Hs6FxGviJglAnLEj_n1zM");
+
+  background-repeat:no-repeat ;
+  display: grid;
+  place-content: center;
+
+  height: 800px;
+
+  
+}
+
+.bg-container-title{
+  color: white;
+}
+
+.inner-bg-container{
+  background-color: #cccccc;
+  border-radius: 12px;
+  width: 500px;
+  padding: 16px;
+
+}
+.grid{
+
+  background-color: rgb(16, 15, 15);
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+ */
+
+ .grid{
+
+
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+}
+
+.border{
+  border-radius: 12px;
+}
+.center{
+  display: grid;
+  place-content: center;
+}
+
+.center{
+  place-items: center;
+}
+.p2{
+  padding-top: 12px;
+}
+.domain-input{
+  width: 700px;
+  height: 50px;
+  border-radius: 12px;
+
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px #a776a7;
+}
+.register{
+  display: grid;
+  align-content: center;
+grid-template-columns: 1fr 1fr ;
+}
+.button-grid{
+  padding: 24px;
+  grid-gap: 12px;
+  display: grid;
+  grid-template-columns: 2fr  1fr 1fr 2fr;
+}
+
+ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
